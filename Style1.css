@@ -1,0 +1,110 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+}
+
+p1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 1000;
+}
+
+p {
+    font-family: montserrat;
+    font-size: 24px;
+    color:#CA8F57;
+
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    font-size: 22px;
+}
+
+td {
+    background-color: #ffffff;
+}
+/*حق الفيتشرز */
+thead th:first-child {
+    background-color: #ffd700;
+    color: #333333;
+    text-align: center;
+}
+/*بويلد */
+thead th:nth-child(2) {
+    background-color: #c2e1eb;
+    color: #333333;
+    text-align: center;
+}
+
+thead th:nth-child(3) {
+    background-color: #EBE954;
+    text-align: center;
+    color: #333333;
+}
+
+thead th:nth-child(4) {
+    background-color: #dcdcdc;
+    color: #333333;
+    text-align: center;
+
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tfoot td {
+    font-weight: 700;
+    text-align: center;
+}
+
+    tfoot td:nth-child(2) {
+        background-color: #c2e1eb;
+        color: #333333;
+        font-size: 22px;
+    }
+
+    tfoot td:nth-child(3) {
+        background-color:#EBE954;
+        
+        color: #333333;
+        font-size: 22px;
+    }
+
+    tfoot td:nth-child(4) {
+        background-color: #dcdcdc;
+        color: #333333;
+        font-size: 22px;
+    }
+
+tfoot tr td {
+    padding: 20px 0;
+}
+
+
